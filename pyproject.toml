@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vision-tagger"
+version = "0.1.0"
+description = "Batch image auto-tagging and captioning: classical CV heuristics offline, optional vision-LLM."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Mohammed Hassan bin Tayyeb", email = "hasaantayyb1@gmail.com" }]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "Pillow>=10"]
+keywords = ["computer-vision", "image-tagging", "captioning", "pillow", "numpy", "vision-llm"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Multimedia :: Graphics",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "ruff>=0.4"]
+
+[project.scripts]
+vision-tagger = "visiontagger.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/hbtabi/vision-tagger"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
