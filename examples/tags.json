@@ -1,0 +1,531 @@
+[
+  {
+    "file": "examples/images/abstract.png",
+    "caption": "A bright, vivid square image dominated by white and orange, likely showing flat graphic shapes or an illustration.",
+    "source": "heuristic",
+    "tags": [
+      {
+        "name": "graphic",
+        "score": 1.0,
+        "kind": "style"
+      },
+      {
+        "name": "vibrant",
+        "score": 1.0,
+        "kind": "style"
+      },
+      {
+        "name": "white",
+        "score": 0.762,
+        "kind": "colour"
+      },
+      {
+        "name": "orange",
+        "score": 0.621,
+        "kind": "colour"
+      },
+      {
+        "name": "blue",
+        "score": 0.481,
+        "kind": "colour"
+      },
+      {
+        "name": "square format",
+        "score": 1.0,
+        "kind": "layout"
+      }
+    ],
+    "colours": [
+      {
+        "name": "white",
+        "hex": "#f9efe5",
+        "share": 0.305
+      },
+      {
+        "name": "orange",
+        "hex": "#fa9c20",
+        "share": 0.2485
+      },
+      {
+        "name": "blue",
+        "hex": "#526ad9",
+        "share": 0.1922
+      },
+      {
+        "name": "green",
+        "hex": "#2abd78",
+        "share": 0.144
+      },
+      {
+        "name": "red",
+        "hex": "#e62a5b",
+        "share": 0.1103
+      }
+    ],
+    "size": [
+      400,
+      400
+    ]
+  },
+  {
+    "file": "examples/images/beach.jpg",
+    "caption": "A softly lit, vivid landscape image dominated by sky blue and beige, likely showing a beach by the water.",
+    "source": "heuristic",
+    "tags": [
+      {
+        "name": "beach",
+        "score": 1.0,
+        "kind": "scene"
+      },
+      {
+        "name": "outdoor",
+        "score": 1.0,
+        "kind": "scene"
+      },
+      {
+        "name": "sky",
+        "score": 1.0,
+        "kind": "scene"
+      },
+      {
+        "name": "cool tones",
+        "score": 1.0,
+        "kind": "style"
+      },
+      {
+        "name": "vibrant",
+        "score": 1.0,
+        "kind": "style"
+      },
+      {
+        "name": "sky blue",
+        "score": 1.0,
+        "kind": "colour"
+      },
+      {
+        "name": "beige",
+        "score": 0.836,
+        "kind": "colour"
+      },
+      {
+        "name": "landscape format",
+        "score": 1.0,
+        "kind": "layout"
+      }
+    ],
+    "colours": [
+      {
+        "name": "sky blue",
+        "hex": "#5ba3e8",
+        "share": 0.6592
+      },
+      {
+        "name": "beige",
+        "hex": "#e5cd96",
+        "share": 0.3343
+      },
+      {
+        "name": "teal",
+        "hex": "#487c91",
+        "share": 0.0065
+      }
+    ],
+    "size": [
+      480,
+      320
+    ]
+  },
+  {
+    "file": "examples/images/document.png",
+    "caption": "A bright, black-and-white portrait image, likely showing a document or page of text.",
+    "source": "heuristic",
+    "tags": [
+      {
+        "name": "document",
+        "score": 1.0,
+        "kind": "scene"
+      },
+      {
+        "name": "monochrome",
+        "score": 1.0,
+        "kind": "style"
+      },
+      {
+        "name": "high-key",
+        "score": 0.942,
+        "kind": "style"
+      },
+      {
+        "name": "white",
+        "score": 1.0,
+        "kind": "colour"
+      },
+      {
+        "name": "grey",
+        "score": 0.451,
+        "kind": "colour"
+      },
+      {
+        "name": "portrait format",
+        "score": 1.0,
+        "kind": "layout"
+      }
+    ],
+    "colours": [
+      {
+        "name": "white",
+        "hex": "#fafaf8",
+        "share": 0.7922
+      },
+      {
+        "name": "grey",
+        "hex": "#6d6d72",
+        "share": 0.1802
+      },
+      {
+        "name": "silver",
+        "hex": "#ababad",
+        "share": 0.0277
+      }
+    ],
+    "size": [
+      300,
+      420
+    ]
+  },
+  {
+    "file": "examples/images/forest.jpg",
+    "caption": "A softly lit, vivid landscape image dominated by sky blue and green, likely showing an outdoor landscape.",
+    "source": "heuristic",
+    "tags": [
+      {
+        "name": "landscape",
+        "score": 1.0,
+        "kind": "scene"
+      },
+      {
+        "name": "outdoor",
+        "score": 1.0,
+        "kind": "scene"
+      },
+      {
+        "name": "sky",
+        "score": 1.0,
+        "kind": "scene"
+      },
+      {
+        "name": "vegetation",
+        "score": 1.0,
+        "kind": "scene"
+      },
+      {
+        "name": "cool tones",
+        "score": 1.0,
+        "kind": "style"
+      },
+      {
+        "name": "vibrant",
+        "score": 0.821,
+        "kind": "style"
+      },
+      {
+        "name": "sky blue",
+        "score": 1.0,
+        "kind": "colour"
+      },
+      {
+        "name": "green",
+        "score": 0.966,
+        "kind": "colour"
+      },
+      {
+        "name": "landscape format",
+        "score": 1.0,
+        "kind": "layout"
+      }
+    ],
+    "colours": [
+      {
+        "name": "sky blue",
+        "hex": "#67a8ec",
+        "share": 0.4882
+      },
+      {
+        "name": "green",
+        "hex": "#2b722e",
+        "share": 0.3865
+      },
+      {
+        "name": "dark green",
+        "hex": "#145229",
+        "share": 0.1147
+      },
+      {
+        "name": "teal",
+        "hex": "#68a3af",
+        "share": 0.0107
+      }
+    ],
+    "size": [
+      480,
+      320
+    ]
+  },
+  {
+    "file": "examples/images/monochrome-blocks.jpg",
+    "caption": "A softly lit, black-and-white portrait image.",
+    "source": "heuristic",
+    "tags": [
+      {
+        "name": "monochrome",
+        "score": 1.0,
+        "kind": "style"
+      },
+      {
+        "name": "grey",
+        "score": 1.0,
+        "kind": "colour"
+      },
+      {
+        "name": "charcoal",
+        "score": 0.375,
+        "kind": "colour"
+      },
+      {
+        "name": "portrait format",
+        "score": 1.0,
+        "kind": "layout"
+      }
+    ],
+    "colours": [
+      {
+        "name": "grey",
+        "hex": "#8a8a8a",
+        "share": 0.6925
+      },
+      {
+        "name": "charcoal",
+        "hex": "#3c3c3c",
+        "share": 0.15
+      },
+      {
+        "name": "silver",
+        "hex": "#c6c6c6",
+        "share": 0.0795
+      },
+      {
+        "name": "white",
+        "hex": "#e3e3e3",
+        "share": 0.078
+      }
+    ],
+    "size": [
+      360,
+      480
+    ]
+  },
+  {
+    "file": "examples/images/night-city.png",
+    "caption": "A dark, muted landscape image dominated by black, likely showing a night-time scene with city lights.",
+    "source": "heuristic",
+    "tags": [
+      {
+        "name": "night",
+        "score": 1.0,
+        "kind": "scene"
+      },
+      {
+        "name": "city lights",
+        "score": 0.597,
+        "kind": "scene"
+      },
+      {
+        "name": "low-key",
+        "score": 1.0,
+        "kind": "style"
+      },
+      {
+        "name": "black",
+        "score": 1.0,
+        "kind": "colour"
+      },
+      {
+        "name": "landscape format",
+        "score": 1.0,
+        "kind": "layout"
+      }
+    ],
+    "colours": [
+      {
+        "name": "black",
+        "hex": "#0d0f16",
+        "share": 0.9467
+      },
+      {
+        "name": "charcoal",
+        "hex": "#4a3d27",
+        "share": 0.0207
+      },
+      {
+        "name": "gold",
+        "hex": "#f2be56",
+        "share": 0.018
+      },
+      {
+        "name": "tan",
+        "hex": "#a78541",
+        "share": 0.0147
+      }
+    ],
+    "size": [
+      480,
+      320
+    ]
+  },
+  {
+    "file": "examples/images/snow-mountain.jpg",
+    "caption": "A bright, cool-toned landscape image dominated by sky blue and white, likely showing a snowy landscape.",
+    "source": "heuristic",
+    "tags": [
+      {
+        "name": "landscape",
+        "score": 1.0,
+        "kind": "scene"
+      },
+      {
+        "name": "outdoor",
+        "score": 1.0,
+        "kind": "scene"
+      },
+      {
+        "name": "sky",
+        "score": 1.0,
+        "kind": "scene"
+      },
+      {
+        "name": "snow",
+        "score": 1.0,
+        "kind": "scene"
+      },
+      {
+        "name": "cool tones",
+        "score": 1.0,
+        "kind": "style"
+      },
+      {
+        "name": "sky blue",
+        "score": 1.0,
+        "kind": "colour"
+      },
+      {
+        "name": "white",
+        "score": 0.876,
+        "kind": "colour"
+      },
+      {
+        "name": "grey",
+        "score": 0.489,
+        "kind": "colour"
+      },
+      {
+        "name": "landscape format",
+        "score": 1.0,
+        "kind": "layout"
+      }
+    ],
+    "colours": [
+      {
+        "name": "sky blue",
+        "hex": "#77abe2",
+        "share": 0.4539
+      },
+      {
+        "name": "white",
+        "hex": "#f5f6fa",
+        "share": 0.3503
+      },
+      {
+        "name": "grey",
+        "hex": "#787d8d",
+        "share": 0.1957
+      }
+    ],
+    "size": [
+      480,
+      320
+    ]
+  },
+  {
+    "file": "examples/images/sunset.jpg",
+    "caption": "A dark, warm-toned landscape image dominated by black and brown, likely showing a sunset sky.",
+    "source": "heuristic",
+    "tags": [
+      {
+        "name": "outdoor",
+        "score": 1.0,
+        "kind": "scene"
+      },
+      {
+        "name": "sunset",
+        "score": 1.0,
+        "kind": "scene"
+      },
+      {
+        "name": "warm tones",
+        "score": 0.806,
+        "kind": "style"
+      },
+      {
+        "name": "black",
+        "score": 0.732,
+        "kind": "colour"
+      },
+      {
+        "name": "brown",
+        "score": 0.657,
+        "kind": "colour"
+      },
+      {
+        "name": "maroon",
+        "score": 0.556,
+        "kind": "colour"
+      },
+      {
+        "name": "landscape format",
+        "score": 1.0,
+        "kind": "layout"
+      }
+    ],
+    "colours": [
+      {
+        "name": "black",
+        "hex": "#2d1328",
+        "share": 0.2928
+      },
+      {
+        "name": "brown",
+        "hex": "#a65946",
+        "share": 0.2627
+      },
+      {
+        "name": "maroon",
+        "hex": "#793d59",
+        "share": 0.2223
+      },
+      {
+        "name": "navy",
+        "hex": "#552767",
+        "share": 0.1773
+      },
+      {
+        "name": "gold",
+        "hex": "#facc59",
+        "share": 0.0448
+      }
+    ],
+    "size": [
+      480,
+      320
+    ]
+  }
+]
